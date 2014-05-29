@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Scroll Freeze - Example</title>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="../src/jquery.scrollfreeze.js"></script>
+    <script>
+        $(function () {
+
+            $('.toggle').click(function (e) {
+                $.scrollFreeze.toggle();
+                var label = $.scrollFreeze.isFrozen() ? 'Thaw Scroll!' : 'Freeze Scroll!';
+                $(this).text(label).toggleClass('frozen');
+            }); 
+
+        });
+    </script>
+
+    <style>
+        img {
+            border: 5px solid black;
+            display: block;
+            margin-bottom: 25px;
+        }
+        button {
+            position: fixed;
+            right: 25px;
+            padding: 25px;
+            font-weight: bold;
+            background-color: red;
+            font-size: 16px;
+            color: white;
+        }
+        button.frozen {
+            background-color: green;   
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle">Freeze Scroll!</button>
+    <img src="http://placehold.it/500x500">
+    <img src="http://placehold.it/500x500">
+    <img src="http://placehold.it/500x500">
+    <img src="http://placehold.it/500x500">
+    <img src="http://placehold.it/500x500">
+    <img src="http://placehold.it/500x500">
+    <img src="http://placehold.it/500x500">
+    <img src="http://placehold.it/500x500">
+    <img src="http://placehold.it/500x500">
+    <img id="scrollhere" src="http://placehold.it/500x500">
+    <img src="http://placehold.it/500x500">
+</body>
+</html>

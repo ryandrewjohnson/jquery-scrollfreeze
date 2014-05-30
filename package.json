@@ -1,7 +1,7 @@
 {
   "name": "jquery.scrollfreeze",
   "version": "1.0.0",
-  "description": "A simple jquery plugin that allows you to easily disable(freeze) user scroll events.",
+  "description": "A simple jQuery plugin that allows you to easily disable(freeze) user scroll events on the window.",
   "keywords": [],
   "homepage":"https://github.com/ryandrewjohnson/jquery-scrollfreeze",
   "author": {

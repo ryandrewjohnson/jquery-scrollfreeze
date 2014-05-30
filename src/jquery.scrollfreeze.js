@@ -1,36 +1,3 @@
-/**
- * @name jquery.scrollfreeze
- * @desc A simple jQuery plugin that allows you to easily disable(freeze) user scroll events.
- * @author Ryan Johnson
- * @version 1.0.0
- *  
- *  Usage:
- *
- *  // This setting will add a css overflow property to the body element (disabled by default)
- *  // Frozen - overflow: hidden
- *  // Thawed - overflow: visible
- *  $.scrollFreeze.useOverflow();
- * 
- *  // disable scrolling
- *  $.scrollFreeze.freeze();    
- *      
- *  // enable scrolling
- *  $.scrollFreeze.thaw();     
- *      
- *  // toggle scrolling
- *  $.scrollFreeze.toggle();        
- *
- *  Events:
- *
- *  // this event will trigger for user initiated scrolling when thawed
- *  // e.g. mousewheel, keyboard up/down arrows
- *  
- *  $('document').on('userscroll.scrollfreeze', function () {
- *      // do something
- *  }); 
- *  
- */
-
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.

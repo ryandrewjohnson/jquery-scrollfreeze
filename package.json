@@ -1,0 +1,31 @@
+{
+  "name": "jquery.scrollfreeze",
+  "version": "1.0.0",
+  "description": "A simple jquery plugin that allows you to easily disable(freeze) user scroll events.",
+  "keywords": [],
+  "homepage":"https://github.com/ryandrewjohnson/jquery-scrollfreeze",
+  "author": {
+    "name": "Ryan Johnson",
+    "email": "ryan@shakainteractive.com",
+    "url": "http://shakainteractive.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryandrewjohnson/jquery-scrollfreeze.git"
+  },
+  "bugs": "https://github.com/ryandrewjohnson/jquery-scrollfreeze/issues",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt qunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-qunit": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.5"
+  }
+}

@@ -1,4 +1,4 @@
-# jquery.cookie
+# jquery.scrollfreeze
 
 A simple jQuery plugin that allows you to easily disable(freeze) user scroll events on the window.
 
